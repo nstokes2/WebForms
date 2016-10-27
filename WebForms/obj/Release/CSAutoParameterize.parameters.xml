@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-WebForms-20160926090608.mdf;Initial Catalog=aspnet-WebForms-20160926090608;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\Users\\nathaniel\ stokes\\documents\\visual\ studio\ 2015\\Projects\\WebForms\\WebForms\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="WebForms-Web.config Connection String" description="WebForms Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\webforms.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\Users\\nathaniel\ stokes\\documents\\visual\ studio\ 2015\\Projects\\WebForms\\WebForms\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebForms']/@connectionString" />
+  </parameter>
+  <parameter name="MemphisAnimals-Web.config Connection String" description="MemphisAnimals Connection String used in web.config by the application to access the database." defaultValue="MemphisAnimals_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\Users\\nathaniel\ stokes\\documents\\visual\ studio\ 2015\\Projects\\WebForms\\WebForms\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MemphisAnimals']/@connectionString" />
+  </parameter>
+</parameters>
